@@ -25,8 +25,8 @@ class Subscribe extends Component {
             fontSize: 40
         }
         return(
-            <form style={ formDivStyle }>
-                <input style={ subInputStyle } placeholder=" EMAIL" name="subscribe" required></input><br/>
+            <form style={ formDivStyle } action="./subscribe.php" method="POST">
+                <input style={ subInputStyle } type="email" placeholder=" EMAIL" name="email" required></input><br/>
                 <button style={ subButtonStyle } type="submit">Subscribe</button>
             </form>
         );

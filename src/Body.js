@@ -20,6 +20,7 @@ class Body extends Component {
              <div style={genderTabStyle}>
                 <GenderTab />
              </div>
+
              <Subscribe />
             </section>
             

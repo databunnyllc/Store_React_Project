@@ -1,0 +1,12 @@
+/* The view buttons css animations */
+ button {
+    color: #362F2D;
+    background-color: #FFE8CE;
+    border-radius: 10px;
+    border: none;
+    transition: all .3s ease-in-out;
+    &:hover {
+        background-color: #362F2D;
+        color: #FFE8CE;
+    }
+}

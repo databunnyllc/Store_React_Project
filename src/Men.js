@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./mens.css";
 
 class Men extends Component {
     render() {
@@ -30,18 +31,21 @@ class Men extends Component {
                             <img style={ tableImages } src={require("./images/BlissfullyLivingShirtMEN.PNG")}/>
                             <p>Blissfully Living</p>
                             <h4>$30.00</h4>
+                            <a href="#"><button>View</button></a>
                         </td>
 
                         <td style={ tableDataStyle }>
                             <img style={ tableImages } src={require("./images/LetsHaveABeerMENS.PNG")}/>
                             <p>Let's Have A Beer</p>
                             <h4>$30.00</h4>
+                            <a href="#"><button>View</button></a>
                         </td>
 
                         <td style={ tableDataStyle }>
                             <img style={ tableImages } src={require("./images/AllMight,AllPowerMENS.PNG")}/>
                             <p>All Might, All Power</p>
                             <h4>$30.00</h4>
+                            <a href="#"><button>View</button></a>
                         </td>
                     </tr>
 
@@ -50,23 +54,27 @@ class Men extends Component {
                             <img style={ tableImages } src={require("./images/IKeepItOneHundredMENS.PNG")}/>
                             <p>I Keep It One Hundred!!!</p>
                             <h4>$30.00</h4>
+                            <a href="#"><button>View</button></a>
                         </td>
 
                         <td style={ tableDataStyle }>
                             <img style={ tableImages } src={require("./images/AmaterasuMENS.PNG")}/>
                             <p>Amaterasu</p>
                             <h4>$30.00</h4>
+                            <a href="#"><button>View</button></a>
                         </td>
 
                         <td style={ tableDataStyle }>
                             <img style={ tableImages } src={require("./images/TheWorldIsMyCanvasMENS.PNG")}/>
                             <p>The World is My Canvas</p>
                             <h4>$30.00</h4>
+                            <a href="#"><button>View</button></a>
                         </td>
                     </tr>
                 </table>
+                <hr/>
             </div>
-        )
+        );
     }
 }
 export default Men;

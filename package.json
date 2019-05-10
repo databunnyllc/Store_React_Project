@@ -1,5 +1,5 @@
 {
-  "name": "levestondesignstore",
+  "name": "LevestonDesignsStore",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,13 +11,13 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "homepage": "https://LeeTheTweak.github.io/Store_React_Project",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage": "https://github.com/LeeTheTweak/Store_React_Project.git",
-    "deploy": "gh-pages -d build"
-    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
