@@ -35,11 +35,11 @@ class GenderTab extends Component {
             <div id="navigation2" style={ navigation2Style }>
                 <div id="genderNavContainer">
                     <ul>
-                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="/Home">HOME</NavLink></li>
-                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="/Men">MEN</NavLink></li>
-                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="/Women">WOMEN</NavLink></li>
-                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="/Kids">KIDS</NavLink></li>
-                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="/Art">ART</NavLink></li>
+                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="Home">HOME</NavLink></li>
+                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="Men">MEN</NavLink></li>
+                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="Women">WOMEN</NavLink></li>
+                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="Kids">KIDS</NavLink></li>
+                        <li style={ listStyle }><NavLink style={ navLinkStyle } to="Art">ART</NavLink></li>
                     </ul>
                     <hr/>
                     <div className="content">
