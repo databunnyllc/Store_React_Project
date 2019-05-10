@@ -43,6 +43,7 @@ class GenderTab extends Component {
                     </ul>
                     <hr/>
                     <div className="content">
+                        <Route path="/index" component={Home}/>
                         <Route path="/Home" component={Home}/>
                         <Route path="/Men" component={Men}/>
                         <Route path="/Women" component={Women}/>
