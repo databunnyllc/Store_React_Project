@@ -2,7 +2,7 @@
   "name": "LevestonDesignsStore",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leethetweak.github.io/Store_React_Project",
+  "homepage": "https://leethetweak.github.io/Store_React_Project/#/Home",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
